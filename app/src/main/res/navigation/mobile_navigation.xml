@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_list">
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.edwinacubillos.sesionroom.ui.ListFragment"
+        android:label="@string/title_list"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/navigation_create"
+        android:name="com.edwinacubillos.sesionroom.ui.CreateFragment"
+        android:label="@string/title_create"
+        tools:layout="@layout/fragment_create" />
+
+    <fragment
+        android:id="@+id/navigation_read"
+        android:name="com.edwinacubillos.sesionroom.ui.ReadFragment"
+        android:label="@string/title_read"
+        tools:layout="@layout/fragment_read" />
+
+    <fragment
+        android:id="@+id/navigation_update"
+        android:name="com.edwinacubillos.sesionroom.ui.UpdateFragment"
+        android:label="@string/title_update"
+        tools:layout="@layout/fragment_update" />
+
+    <fragment
+        android:id="@+id/navigation_delete"
+        android:name="com.edwinacubillos.sesionroom.ui.DeleteFragment"
+        android:label="@string/title_delete"
+        tools:layout="@layout/fragment_delete" />
+</navigation>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mis Deudas</string>
+    <string name="title_create">Create</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_list">List</string>
+    <string name="title_read">Read</string>
+    <string name="title_update">Update</string>
+</resources>
