@@ -5,4 +5,18 @@
     <string name="title_list">List</string>
     <string name="title_read">Read</string>
     <string name="title_update">Update</string>
+    <string name="name">Digite el nombre del deudor</string>
+    <string name="telefono">Telefono</string>
+    <string name="owe">Deuda en pesos</string>
+    <string name="guardar">Guardar</string>
+    <string name="deuda">Deuda</string>
+    <string name="deudor_name">Nombre del Deudor</string>
+    <string name="buscar">Buscar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="nuevo_valor">Digite nuevo valor de la deuda</string>
+    <string name="nuevo_telefono">Digite nuevo telefono</string>
+    <string name="password">Contreña (min 6 caracteres)</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="correo">Digite Correo Electrónico</string>
+    <string name="rep_password">Repetir Contraseña</string>
 </resources>
